@@ -1,6 +1,7 @@
 /out
 /cutout
 *.mp4
+/bw
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
