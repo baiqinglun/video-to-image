@@ -42,6 +42,7 @@ class ColorProcesser:
                     white+=1
         rate1 = white/(x*y)
         rate2 = black/(x*y)
+        
         # self.list1.append(float(image_path.split("/")[-1].split(".png")[0].split("s")[0]))
         self.list2.append(rate2)
         #round()第二个值为保留几位有效小数。

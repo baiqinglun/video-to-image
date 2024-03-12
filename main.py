@@ -1,6 +1,7 @@
 from src.video_to_image import VideoToImage
 from src.cut_out_image import CutoutImageManger
 from src.handle_image import ColorProcesser
+from src.draw_curve import DrawManger
 import os
 
 def main():
@@ -14,8 +15,12 @@ def main():
     # cutManger.setClipCoordinate(x0=550,x1=1150,y0=400,y1=970) # 灰度处理裁剪
     # cutManger.cutAll()
 
-    colorProcesser = ColorProcesser()
-    colorProcesser.handleAll()
+    # colorProcesser = ColorProcesser()
+    # colorProcesser.handleAll()
+
+
+    drawManger = DrawManger("test.csv")
+    drawManger.draw()
 
 if __name__== "__main__" :
     main()
